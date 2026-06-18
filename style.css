@@ -21,7 +21,7 @@ header{
 	font-weight: bold;
 }
 
-na ul{
+nav ul{
 	display: flex;
 	list-style: none;
 	gap: 30px;
@@ -80,10 +80,11 @@ na ul{
 	font-size: 14px;
 }
 
-h1{
-	font-size: 60px;
+.left h1{
+	font-size: 40px;
 	line-height: 1.1;
 	margin-bottom: 25px;
+	inline-size: 500px;
 }
 
 h1 span{
@@ -145,5 +146,4 @@ h1 span{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 60px;
 }
